@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E70D50681BABE90200675D9B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70D50671BABE90200675D9B /* BaseViewController.m */; };
+		E7DDB8F11BAABA2C00774695 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DDB8F01BAABA2C00774695 /* Foundation.framework */; };
+		E7DDB8F31BAABA2C00774695 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DDB8F21BAABA2C00774695 /* CoreGraphics.framework */; };
+		E7DDB8F51BAABA2C00774695 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DDB8F41BAABA2C00774695 /* UIKit.framework */; };
+		E7DDB8FB1BAABA2C00774695 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7DDB8F91BAABA2C00774695 /* InfoPlist.strings */; };
+		E7DDB8FD1BAABA2C00774695 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DDB8FC1BAABA2C00774695 /* main.m */; };
+		E7DDB9011BAABA2C00774695 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DDB9001BAABA2C00774695 /* AppDelegate.m */; };
+		E7DDB9031BAABA2C00774695 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7DDB9021BAABA2C00774695 /* Images.xcassets */; };
+		E7DDB90A1BAABA2C00774695 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DDB9091BAABA2C00774695 /* XCTest.framework */; };
+		E7DDB90B1BAABA2C00774695 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DDB8F01BAABA2C00774695 /* Foundation.framework */; };
+		E7DDB90C1BAABA2C00774695 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DDB8F41BAABA2C00774695 /* UIKit.framework */; };
+		E7DDB9141BAABA2C00774695 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7DDB9121BAABA2C00774695 /* InfoPlist.strings */; };
+		E7DDB9161BAABA2C00774695 /* NavTableBarViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DDB9151BAABA2C00774695 /* NavTableBarViewControllerTests.m */; };
+		E7DDB9231BAABAC400774695 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DDB9221BAABAC400774695 /* MainNavigationViewController.m */; };
+		E7DDB92A1BAABC7C00774695 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DDB9281BAABC7C00774695 /* MainTabBarViewController.m */; };
+		E7DDB92F1BAAC83D00774695 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DDB92D1BAAC83D00774695 /* TestViewController.m */; };
+		E7DDB9301BAAC83D00774695 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7DDB92E1BAAC83D00774695 /* TestViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7DDB90D1BAABA2C00774695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7DDB8E51BAABA2C00774695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7DDB8EC1BAABA2C00774695;
+			remoteInfo = NavTableBarViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E70D50661BABE90200675D9B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		E70D50671BABE90200675D9B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		E7DDB8ED1BAABA2C00774695 /* NavTableBarViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavTableBarViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7DDB8F01BAABA2C00774695 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E7DDB8F21BAABA2C00774695 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E7DDB8F41BAABA2C00774695 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7DDB8F81BAABA2C00774695 /* NavTableBarViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavTableBarViewController-Info.plist"; sourceTree = "<group>"; };
+		E7DDB8FA1BAABA2C00774695 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7DDB8FC1BAABA2C00774695 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7DDB8FE1BAABA2C00774695 /* NavTableBarViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavTableBarViewController-Prefix.pch"; sourceTree = "<group>"; };
+		E7DDB8FF1BAABA2C00774695 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7DDB9001BAABA2C00774695 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7DDB9021BAABA2C00774695 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E7DDB9081BAABA2C00774695 /* NavTableBarViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavTableBarViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7DDB9091BAABA2C00774695 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E7DDB9111BAABA2C00774695 /* NavTableBarViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavTableBarViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		E7DDB9131BAABA2C00774695 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7DDB9151BAABA2C00774695 /* NavTableBarViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavTableBarViewControllerTests.m; sourceTree = "<group>"; };
+		E7DDB9211BAABAC400774695 /* MainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationViewController.h; sourceTree = "<group>"; };
+		E7DDB9221BAABAC400774695 /* MainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationViewController.m; sourceTree = "<group>"; };
+		E7DDB9271BAABC7C00774695 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		E7DDB9281BAABC7C00774695 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		E7DDB92C1BAAC83D00774695 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		E7DDB92D1BAAC83D00774695 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		E7DDB92E1BAAC83D00774695 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7DDB8EA1BAABA2C00774695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DDB8F31BAABA2C00774695 /* CoreGraphics.framework in Frameworks */,
+				E7DDB8F51BAABA2C00774695 /* UIKit.framework in Frameworks */,
+				E7DDB8F11BAABA2C00774695 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7DDB9051BAABA2C00774695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DDB90A1BAABA2C00774695 /* XCTest.framework in Frameworks */,
+				E7DDB90C1BAABA2C00774695 /* UIKit.framework in Frameworks */,
+				E7DDB90B1BAABA2C00774695 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7DDB8E41BAABA2C00774695 = {
+			isa = PBXGroup;
+			children = (
+				E7DDB8F61BAABA2C00774695 /* NavTableBarViewController */,
+				E7DDB90F1BAABA2C00774695 /* NavTableBarViewControllerTests */,
+				E7DDB8EF1BAABA2C00774695 /* Frameworks */,
+				E7DDB8EE1BAABA2C00774695 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7DDB8EE1BAABA2C00774695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7DDB8ED1BAABA2C00774695 /* NavTableBarViewController.app */,
+				E7DDB9081BAABA2C00774695 /* NavTableBarViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7DDB8EF1BAABA2C00774695 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7DDB8F01BAABA2C00774695 /* Foundation.framework */,
+				E7DDB8F21BAABA2C00774695 /* CoreGraphics.framework */,
+				E7DDB8F41BAABA2C00774695 /* UIKit.framework */,
+				E7DDB9091BAABA2C00774695 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7DDB8F61BAABA2C00774695 /* NavTableBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E7DDB8FF1BAABA2C00774695 /* AppDelegate.h */,
+				E7DDB9001BAABA2C00774695 /* AppDelegate.m */,
+				E7DDB9021BAABA2C00774695 /* Images.xcassets */,
+				E7DDB9201BAABA7A00774695 /* Views */,
+				E7DDB91F1BAABA7A00774695 /* Utils */,
+				E7DDB8F71BAABA2C00774695 /* Supporting Files */,
+			);
+			path = NavTableBarViewController;
+			sourceTree = "<group>";
+		};
+		E7DDB8F71BAABA2C00774695 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7DDB8F81BAABA2C00774695 /* NavTableBarViewController-Info.plist */,
+				E7DDB8F91BAABA2C00774695 /* InfoPlist.strings */,
+				E7DDB8FC1BAABA2C00774695 /* main.m */,
+				E7DDB8FE1BAABA2C00774695 /* NavTableBarViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7DDB90F1BAABA2C00774695 /* NavTableBarViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7DDB9151BAABA2C00774695 /* NavTableBarViewControllerTests.m */,
+				E7DDB9101BAABA2C00774695 /* Supporting Files */,
+			);
+			path = NavTableBarViewControllerTests;
+			sourceTree = "<group>";
+		};
+		E7DDB9101BAABA2C00774695 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7DDB9111BAABA2C00774695 /* NavTableBarViewControllerTests-Info.plist */,
+				E7DDB9121BAABA2C00774695 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7DDB91F1BAABA7A00774695 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E7DDB9201BAABA7A00774695 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7DDB9211BAABAC400774695 /* MainNavigationViewController.h */,
+				E7DDB9221BAABAC400774695 /* MainNavigationViewController.m */,
+				E7DDB9271BAABC7C00774695 /* MainTabBarViewController.h */,
+				E7DDB9281BAABC7C00774695 /* MainTabBarViewController.m */,
+				E70D50661BABE90200675D9B /* BaseViewController.h */,
+				E70D50671BABE90200675D9B /* BaseViewController.m */,
+				E7DDB92C1BAAC83D00774695 /* TestViewController.h */,
+				E7DDB92D1BAAC83D00774695 /* TestViewController.m */,
+				E7DDB92E1BAAC83D00774695 /* TestViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7DDB8EC1BAABA2C00774695 /* NavTableBarViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7DDB9191BAABA2D00774695 /* Build configuration list for PBXNativeTarget "NavTableBarViewController" */;
+			buildPhases = (
+				E7DDB8E91BAABA2C00774695 /* Sources */,
+				E7DDB8EA1BAABA2C00774695 /* Frameworks */,
+				E7DDB8EB1BAABA2C00774695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavTableBarViewController;
+			productName = NavTableBarViewController;
+			productReference = E7DDB8ED1BAABA2C00774695 /* NavTableBarViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7DDB9071BAABA2C00774695 /* NavTableBarViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7DDB91C1BAABA2D00774695 /* Build configuration list for PBXNativeTarget "NavTableBarViewControllerTests" */;
+			buildPhases = (
+				E7DDB9041BAABA2C00774695 /* Sources */,
+				E7DDB9051BAABA2C00774695 /* Frameworks */,
+				E7DDB9061BAABA2C00774695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7DDB90E1BAABA2C00774695 /* PBXTargetDependency */,
+			);
+			name = NavTableBarViewControllerTests;
+			productName = NavTableBarViewControllerTests;
+			productReference = E7DDB9081BAABA2C00774695 /* NavTableBarViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7DDB8E51BAABA2C00774695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = wsliang;
+				TargetAttributes = {
+					E7DDB9071BAABA2C00774695 = {
+						TestTargetID = E7DDB8EC1BAABA2C00774695;
+					};
+				};
+			};
+			buildConfigurationList = E7DDB8E81BAABA2C00774695 /* Build configuration list for PBXProject "NavTableBarViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7DDB8E41BAABA2C00774695;
+			productRefGroup = E7DDB8EE1BAABA2C00774695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7DDB8EC1BAABA2C00774695 /* NavTableBarViewController */,
+				E7DDB9071BAABA2C00774695 /* NavTableBarViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7DDB8EB1BAABA2C00774695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DDB8FB1BAABA2C00774695 /* InfoPlist.strings in Resources */,
+				E7DDB9301BAAC83D00774695 /* TestViewController.xib in Resources */,
+				E7DDB9031BAABA2C00774695 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7DDB9061BAABA2C00774695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DDB9141BAABA2C00774695 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7DDB8E91BAABA2C00774695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DDB9011BAABA2C00774695 /* AppDelegate.m in Sources */,
+				E70D50681BABE90200675D9B /* BaseViewController.m in Sources */,
+				E7DDB92A1BAABC7C00774695 /* MainTabBarViewController.m in Sources */,
+				E7DDB8FD1BAABA2C00774695 /* main.m in Sources */,
+				E7DDB9231BAABAC400774695 /* MainNavigationViewController.m in Sources */,
+				E7DDB92F1BAAC83D00774695 /* TestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7DDB9041BAABA2C00774695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DDB9161BAABA2C00774695 /* NavTableBarViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7DDB90E1BAABA2C00774695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7DDB8EC1BAABA2C00774695 /* NavTableBarViewController */;
+			targetProxy = E7DDB90D1BAABA2C00774695 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7DDB8F91BAABA2C00774695 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7DDB8FA1BAABA2C00774695 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E7DDB9121BAABA2C00774695 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7DDB9131BAABA2C00774695 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7DDB9171BAABA2D00774695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7DDB9181BAABA2D00774695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7DDB91A1BAABA2D00774695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavTableBarViewController/NavTableBarViewController-Prefix.pch";
+				INFOPLIST_FILE = "NavTableBarViewController/NavTableBarViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E7DDB91B1BAABA2D00774695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavTableBarViewController/NavTableBarViewController-Prefix.pch";
+				INFOPLIST_FILE = "NavTableBarViewController/NavTableBarViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E7DDB91D1BAABA2D00774695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavTableBarViewController.app/NavTableBarViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavTableBarViewController/NavTableBarViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NavTableBarViewControllerTests/NavTableBarViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E7DDB91E1BAABA2D00774695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavTableBarViewController.app/NavTableBarViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavTableBarViewController/NavTableBarViewController-Prefix.pch";
+				INFOPLIST_FILE = "NavTableBarViewControllerTests/NavTableBarViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7DDB8E81BAABA2C00774695 /* Build configuration list for PBXProject "NavTableBarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7DDB9171BAABA2D00774695 /* Debug */,
+				E7DDB9181BAABA2D00774695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7DDB9191BAABA2D00774695 /* Build configuration list for PBXNativeTarget "NavTableBarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7DDB91A1BAABA2D00774695 /* Debug */,
+				E7DDB91B1BAABA2D00774695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7DDB91C1BAABA2D00774695 /* Build configuration list for PBXNativeTarget "NavTableBarViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7DDB91D1BAABA2D00774695 /* Debug */,
+				E7DDB91E1BAABA2D00774695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7DDB8E51BAABA2C00774695 /* Project object */;
+}
